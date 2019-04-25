@@ -13,9 +13,26 @@
     "test": "node ./test/test.js"
   },
   "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brightleaf/grab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brightleaf/grab/issues"
+  },
+  "homepage": "https://brightleaf.github.io/grab/",
+  "keywords": [
+    "cli",
+    "screenshot",
+    "utils",
+    "puppeteer",
+    "tools",
+    "helpers"
+  ],
   "license": "MIT",
   "dependencies": {
     "@kev_nz/async-tools": "^1.2.0",
+    "@kev_nz/publisher": "^3.0.1",
     "@sindresorhus/slugify": "^0.9.1",
     "puppeteer": "^1.14.0"
   },
