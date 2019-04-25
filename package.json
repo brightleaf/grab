@@ -15,6 +15,7 @@
   "author": "Kevin Isom <kevin.isom@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@kev_nz/async-tools": "^1.2.0",
     "@sindresorhus/slugify": "^0.9.1",
     "puppeteer": "^1.14.0"
   },
