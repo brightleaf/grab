@@ -1,0 +1,25 @@
+{
+  "name": "@brightleaf/grab",
+  "version": "1.0.0",
+  "description": "Grab a screenshot of a website",
+  "main": "src/index.js",
+  "bin": "bin/index.js",
+  "files": [
+    "./bin",
+    "./src"
+  ],
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "node ./test/test.js"
+  },
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@sindresorhus/slugify": "^0.9.1",
+    "puppeteer": "^1.14.0"
+  },
+  "devDependencies": {
+    "@kev_nz/eslint-config": "^3.2.1",
+    "eslint": "^5.16.0"
+  }
+}
