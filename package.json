@@ -1,6 +1,6 @@
 {
   "name": "@brightleaf/grab",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Grab a screenshot of a website",
   "main": "src/index.js",
   "bin": "bin/index.js",
