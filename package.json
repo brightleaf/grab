@@ -10,7 +10,10 @@
   ],
   "scripts": {
     "start": "node ./src/index.js",
-    "test": "node ./test/test.js"
+    "test": "node ./test/test.js",
+    "preversion": "npm test",
+    "postversion": "npm publish --access=public",
+    "postpublish": "git push origin --all --follow-tags && npx publisher"
   },
   "author": "Kevin Isom <kevin.isom@gmail.com>",
   "repository": {
@@ -31,13 +34,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@kev_nz/async-tools": "^1.2.0",
-    "@kev_nz/publisher": "^3.0.1",
+    "@kev_nz/async-tools": "^1.2.1",
+    "@kev_nz/publisher": "^4.0.1",
     "@sindresorhus/slugify": "^0.9.1",
-    "puppeteer": "^1.14.0"
+    "puppeteer": "^1.18.1"
   },
   "devDependencies": {
-    "@kev_nz/eslint-config": "^3.2.1",
-    "eslint": "^5.16.0"
+    "@kev_nz/eslint-config": "^4.0.0",
+    "eslint": "^6.0.1"
   }
 }
