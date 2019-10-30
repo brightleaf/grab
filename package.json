@@ -34,13 +34,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@kev_nz/async-tools": "^1.2.1",
+    "@kev_nz/async-tools": "^1.2.3",
     "@sindresorhus/slugify": "^0.9.1",
-    "puppeteer": "^1.18.1"
+    "puppeteer": "^2.0.0"
   },
   "devDependencies": {
-    "@kev_nz/eslint-config": "^4.0.0",
+    "@kev_nz/eslint-config": "^5.0.0",
     "@kev_nz/publisher": "^4.0.1",
-    "eslint": "^6.0.1"
+    "eslint": "^6.6.0"
   }
 }
